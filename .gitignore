@@ -2,6 +2,13 @@
 
 .DS_Store
 
+# Model checkpoints (too large for GitHub — upload as Release assets)
+*.pt
+
+# Python cache
+__pycache__/
+*.pyc
+
 # Hidden benchmarks
 leaderboard/benchmarks_hidden
 
