@@ -2,7 +2,7 @@
 
 .DS_Store
 
-# Model checkpoints (too large for GitHub — upload as Release assets)
+# Model checkpoints (too large for GitHub)
 *.pt
 
 # Python cache
