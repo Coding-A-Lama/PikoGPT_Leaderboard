@@ -1,0 +1,49 @@
+{
+  "submission": "Pegasus_Radlfahrer",
+  "submission_dir": "P:\\HSG\\PikoGPT_Leaderboard\\Submissions\\Pegasus_Radlfahrer",
+  "checkpoint": "P:\\HSG\\PikoGPT_Leaderboard\\Submissions\\Pegasus_Radlfahrer\\runs\\pegasus_best_checkpoint.pt",
+  "limit": 100,
+  "output_dir": "Results\\Pegasus_Radlfahrer\\pegasus_best_checkpoint",
+  "main_path": "P:\\HSG\\PikoGPT_Leaderboard\\Submissions\\Pegasus_Radlfahrer\\main.py",
+  "python": "C:\\Users\\adria\\anaconda3\\envs\\ML\\python.exe",
+  "device": "auto",
+  "temperature": 0.0,
+  "seed": 0,
+  "timeout_s": 60,
+  "mc_max_tokens": 3,
+  "lambada_max_tokens": 5,
+  "benchmarks": [
+    {
+      "benchmark": "hellaswag",
+      "data": "leaderboard\\benchmarks\\hellaswag\\cleaned\\validation.jsonl",
+      "total": 100,
+      "correct": 26,
+      "invalid": 0,
+      "accuracy_pct": 26.0
+    },
+    {
+      "benchmark": "winogrande",
+      "data": "leaderboard\\benchmarks\\winogrande\\cleaned\\validation.jsonl",
+      "total": 100,
+      "correct": 51,
+      "invalid": 0,
+      "accuracy_pct": 51.0
+    },
+    {
+      "benchmark": "openbookqa",
+      "data": "leaderboard\\benchmarks\\openbookqa\\cleaned\\validation.jsonl",
+      "total": 100,
+      "correct": 27,
+      "invalid": 0,
+      "accuracy_pct": 27.0
+    },
+    {
+      "benchmark": "lambada",
+      "data": "leaderboard\\benchmarks\\lambada\\cleaned\\test.jsonl",
+      "total": 100,
+      "correct": 2,
+      "invalid": 5,
+      "accuracy_pct": 2.0
+    }
+  ]
+}
